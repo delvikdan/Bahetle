@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Бахетле - супермаркет домашней еды. С 8 марта!</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <link rel='stylesheet' href='style.css' type='text/css' media='all' />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="content-data">
+      <div class="logo blue">
+        <img src="img/logo.svg" alt="логотип ">
+      </div>
+      <div class="text-black">
+        <hr>
+        <p class="action">
+          Проведите выходные с близкими, а подготовку праздничного стола
+          <br> доверьте нам!
+          <br> Мы готовим для Вас свежайшие салаты, горячие блюда, восхитительные десерты
+          <br> и многое другое прямо в сумермаркете!
+          <br> Выберите любой деликатес, и мы дадим Вам его попробовать, нарежем
+          <br> и красиво оформим!
+          <br> Оформленные нами блюда уже готовы к подаче!
+          <br> Ближайший для вас супермаркет: "Бахетле" на Можайском шоссе
+          <br/> (МО, Одинцовский р-н, пос. Новоивановское, ул. Западная, 33)
+
+
+        </p>
+        <hr>
+        <div class="happy">
+          <img src="img/happy_march.png" alt="С праздником 8 марта!">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="np">Наше производство</div>
+    <div class="oreh"><img src="img/cake.png" alt=""></div>
+    <div class="sok"><img src="img/2.png" alt=""></div>
+    <div class="semga"><img src="img/11.png" alt=""></div>
+    <div class="coffe"><img src="img/13.png" alt=""></div>
+    <div class="varenie"><img src="img/5.png" alt=""></div>
+    <div class="desert"><img src="img/10.png" alt=""></div>
+    <div class="cup"><img src="img/6.png" alt=""></div>
+    <div class="file"><img src="img/7.png" alt=""></div>
+    <div class="tort"><img src="img/9.png" alt=""></div>
+    <div class="salat"><img src="img/8.png" alt=""></div>
+
+    <div class="socseti">
+      <h3>МЫ В СОЦИАЛЬНЫХ СЕТЯХ:
+            </h3>
+      <a target="_blank" href="https://www.facebook.com/bahetleactions"><img src="img/fb.png" alt="fb"></a>
+      <a target="_blank" href="https://www.instagram.com/bahetle_msk/"><img src="img/inst.png" alt=""></a>
+      <a target="_blank" href="https://vk.com/bahetle_ru"><img src="img/vk.png" alt=""></a>
+    </div>
+    <div class="footer">
+      <div class="adres">
+        <h3>НАШИ АДРЕСА:</h3>
+        <p>"Бахетле" на Можайском шоссе (МО, Одинцовский р-н, пос. Новоивановское, ул. Западная, 33) </p>
+        <hr/>
+        <p>Супермаркет (Алтуфьевское шоссе, 22б)</p>
+        <hr/>
+        <p>Супермаркет (Олимпийский пр., д. 16, стр. 5)</p>
+        <hr/>
+        <p>Супермаркет (ул. Воздвиженка, 10)</p>
+        <hr/>
+        <p>Супермаркет (ул.Тверская, 22)</p>
+        <hr/>
+        <p>Супермаркет (ул. Земляной Вал, 9 (ст. метро Курская))</p>
+        <hr/>
+        <p>Супермаркет (ул. Херсонская, д.43 (ул.Наметкина, 18, корп.2))</p>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <script>
+    $(document).scroll(function () {
+      var y = $(this).scrollTop();
+      if (y > 300) {
+        $('.footer').fadeIn();
+      } else {
+        $('.footer').fadeOut();
+      }
+    });
+  </script>
+
+</body>
+
+</html>
